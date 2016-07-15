@@ -21,6 +21,7 @@ public class TimeController {
 		mv.addObject("gmtmodel", gmtModel);
 		mv.addObject("mstmodel", mstModel);
 		mv.addObject("pstmodel", pstModel);
+		mv.addObject("istmodel", istModel);
 		return mv;
 	}
 }
